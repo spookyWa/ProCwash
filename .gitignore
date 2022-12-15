@@ -91,7 +91,7 @@ local function Drop(Type)
 				[1] = "DropMoney",
 				[2] = "100000"
 			}
-			game:GetService("ReplicatedSto  rage").MainEvent:FireServer(unpack(args))
+			game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
 			wait(2.5)
 		end
 	elseif Type == false then
